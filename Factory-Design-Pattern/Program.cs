@@ -10,6 +10,7 @@ namespace Factory_Design_Pattern
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
