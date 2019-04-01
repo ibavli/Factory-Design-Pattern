@@ -47,6 +47,7 @@
     <Compile Include="Bankalar\IBank.cs" />
     <Compile Include="Bankalar\XBank.cs" />
     <Compile Include="Bankalar\YBank.cs" />
+    <Compile Include="Bankalar\ZBANK.cs" />
     <Compile Include="Cons\Bankalar.cs" />
     <Compile Include="Cons\KrediKartiOdemeTipi.cs" />
     <Compile Include="Cons\OdemeTipi.cs" />

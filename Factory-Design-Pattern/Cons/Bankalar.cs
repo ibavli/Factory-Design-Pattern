@@ -10,5 +10,6 @@ namespace Factory_Design_Pattern.Cons
     {
         public const string XBANK = "XBANK";
         public const string YBANK = "YBANK";
+        public const string ZBANK = "ZBANK";
     }
 }

@@ -30,7 +30,7 @@ namespace Factory_Design_Pattern
         public string GetBanka()
         {
             // Burada kullanıcının seçimine göre geri dönüş yapılır. Biz simülasyon yaptığımız için direk XBANK gönderdik.
-            return Factory_Design_Pattern.Cons.Bankalar.XBANK;
+            return Factory_Design_Pattern.Cons.Bankalar.ZBANK;
         }
     }
 }

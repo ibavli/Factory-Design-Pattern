@@ -18,6 +18,9 @@ namespace Factory_Design_Pattern
             // Banka tipi YBANK ise
             if (banka == Cons.Bankalar.YBANK)
                 return new YBank();
+            // Banka tipi ZBANK ise
+            if (banka == Cons.Bankalar.ZBANK)
+                return new ZBANK();
 
             // varsayılan banka 
             return new XBank();
