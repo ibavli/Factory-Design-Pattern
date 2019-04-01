@@ -10,6 +10,7 @@ namespace Factory_Design_Pattern.Cons
     {
         public const string KREDIKARTI = "KrediKarti";
         public const string BANKAHAVALESI = "BankaHavalesi";
+        public const string KAPIDAODEME = "KapidaOdeme";
     }
 }
 

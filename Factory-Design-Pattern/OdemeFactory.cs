@@ -19,6 +19,9 @@ namespace Factory_Design_Pattern
             // ödeme tipi havale ise.
             if (odemeTipi == OdemeTipi.BANKAHAVALESI)
                 return new BankaHavalesi();
+            // ödeme tipi kapıda ödeme ise.
+            if (odemeTipi == OdemeTipi.KAPIDAODEME)
+                return new KapidaOdeme();
 
             // varsayılan ödeme tipi
             return new KrediKarti();

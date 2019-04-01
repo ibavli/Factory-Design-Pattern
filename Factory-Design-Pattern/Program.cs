@@ -12,7 +12,7 @@ namespace Factory_Design_Pattern
         static void Main(string[] args)
         {
             OdemeFactory factory = new OdemeFactory();
-            IOdeme odeme = factory.OdemeNesnesiOlustur("KrediKarti");
+            IOdeme odeme = factory.OdemeNesnesiOlustur("KapidaOdeme");
             odeme.OdemeYap();
 
             Console.ReadKey();

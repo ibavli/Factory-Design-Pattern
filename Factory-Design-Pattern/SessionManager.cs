@@ -32,5 +32,11 @@ namespace Factory_Design_Pattern
             // Burada kullanıcının seçimine göre geri dönüş yapılır. Biz simülasyon yaptığımız için direk XBANK gönderdik.
             return Factory_Design_Pattern.Cons.Bankalar.ZBANK;
         }
+
+        public KapidaOdemeTipi GetKapidaOdemeTipi()
+        {
+            // Burada kullanıcının seçimine göre geri dönüş yapılır. Biz simülasyon yaptığımız için direk kapıda ödeme nakit gönderdik.
+            return KapidaOdemeTipi.KapidaNakit;
+        }
     }
 }
