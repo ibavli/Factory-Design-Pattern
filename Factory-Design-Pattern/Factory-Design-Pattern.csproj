@@ -43,6 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BankaFactory.cs" />
+    <Compile Include="Bankalar\IBank.cs" />
+    <Compile Include="Bankalar\XBank.cs" />
+    <Compile Include="Bankalar\YBank.cs" />
+    <Compile Include="Cons\Bankalar.cs" />
+    <Compile Include="Cons\KrediKartiOdemeTipi.cs" />
+    <Compile Include="Cons\OdemeTipi.cs" />
+    <Compile Include="OdemeFactory.cs" />
+    <Compile Include="OdemeTipleri\BankaHavalesi.cs" />
+    <Compile Include="OdemeTipleri\IOdeme.cs" />
+    <Compile Include="OdemeTipleri\KrediKarti.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SessionManager.cs" />

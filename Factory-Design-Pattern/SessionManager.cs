@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Factory_Design_Pattern.Cons;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,6 +20,17 @@ namespace Factory_Design_Pattern
                 _utility = new SessionManager();
             return _utility;
         }
-   
+
+        public KrediKartiOdemeTipi GetKrediKartiOdemeTipi()
+        {
+            // Burada kullanıcının seçimine göre geri dönüş yapılır. Biz simülasyon yaptığımız için direk taksit gönderdik.
+            return KrediKartiOdemeTipi.Taksit;
+        }
+
+        public string GetBanka()
+        {
+            // Burada kullanıcının seçimine göre geri dönüş yapılır. Biz simülasyon yaptığımız için direk XBANK gönderdik.
+            return Factory_Design_Pattern.Cons.Bankalar.XBANK;
+        }
     }
 }
